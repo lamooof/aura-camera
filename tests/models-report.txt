@@ -1,0 +1,15 @@
+PASS RVM input RGB normalization [0,1], NCHW
+PASS MODNet normalization [-1,1], not ImageNet mean
+PASS Selfie selects person channel 1
+PASS SelfieMulticlass combines all person classes as 1-background
+PASS Unexpected multiclass output fails instead of selecting a wrong class
+PASS RVM recycles recurrent tensors across frames
+PASS RVM recurrence is independent between cameras
+PASS RVM resets recurrence on size changes
+PASS RVM rejects nonfinite alpha, does not expose NaNs to compositor
+PASS MODNet dispatch uses its ONNX adapter, not MediaPipe
+PASS Depth mode invokes distinct MiDaS inference
+PASS MiDaS uses [0,1] RGB (official ONNX graph includes normalization)
+PASS Automatic accelerator falls back to CPU without changing algorithm
+PASS ORT dependencies are local, proxy/threads do not require relaxed page CSP
+PASS Tensor and session resources are disposed

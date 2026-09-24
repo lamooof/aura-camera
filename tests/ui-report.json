@@ -1,0 +1,146 @@
+{
+  "realChromeAPI": false,
+  "realModels": false,
+  "results": [
+    {
+      "name": "All five algorithms available after preparation",
+      "passed": true
+    },
+    {
+      "name": "Google Meet excluded by default",
+      "passed": true
+    },
+    {
+      "name": "All ordinary sites enabled by default",
+      "passed": true
+    },
+    {
+      "name": "Existing background and quality preserved",
+      "passed": true
+    },
+    {
+      "name": "Meet switch saved separately",
+      "passed": true
+    },
+    {
+      "name": "All-sites switch does not overwrite Meet choice",
+      "passed": true
+    },
+    {
+      "name": "Scope change explains page refresh",
+      "passed": true
+    },
+    {
+      "name": "Algorithm fast saved",
+      "passed": true
+    },
+    {
+      "name": "Algorithm multiclass saved",
+      "passed": true
+    },
+    {
+      "name": "Algorithm rvm saved",
+      "passed": true
+    },
+    {
+      "name": "Algorithm modnet saved",
+      "passed": true
+    },
+    {
+      "name": "Algorithm depth saved",
+      "passed": true
+    },
+    {
+      "name": "Depth parameters shown only for depth mode",
+      "passed": true
+    },
+    {
+      "name": "Depth parameters hidden in RVM",
+      "passed": true
+    },
+    {
+      "name": "CPU override persists",
+      "passed": true
+    },
+    {
+      "name": "Color mode works",
+      "passed": true
+    },
+    {
+      "name": "Blur mode works",
+      "passed": true
+    },
+    {
+      "name": "All eight backgrounds shown",
+      "passed": true
+    },
+    {
+      "name": "Refinement controls persist their numeric units",
+      "passed": true
+    },
+    {
+      "name": "Full detail processing mode persists",
+      "passed": true
+    },
+    {
+      "name": "Speed button selects fast/balanced/efficient/auto",
+      "passed": true
+    },
+    {
+      "name": "Speed button preserves separate site choices",
+      "passed": true
+    },
+    {
+      "name": "Antiflicker remains opt-in after migration",
+      "passed": true
+    },
+    {
+      "name": "Antiflicker button enables guard at 40 percent",
+      "passed": true
+    },
+    {
+      "name": "Antiflicker button leaves all other settings intact",
+      "passed": true
+    },
+    {
+      "name": "Guard toggle returns to legacy temporal mode",
+      "passed": true
+    },
+    {
+      "name": "Popup has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic report downloads without frames",
+      "passed": true
+    },
+    {
+      "name": "Preview opens only after explicit button",
+      "passed": true
+    },
+    {
+      "name": "Preview has the same five-model selector",
+      "passed": true
+    },
+    {
+      "name": "Preview contains all four quality choices",
+      "passed": true
+    },
+    {
+      "name": "Preview contains matching antiflicker controls",
+      "passed": true
+    },
+    {
+      "name": "Preview does not open camera on load",
+      "passed": true
+    },
+    {
+      "name": "Model self-test control is present",
+      "passed": true
+    },
+    {
+      "name": "No uncaught UI errors",
+      "passed": true
+    }
+  ]
+}

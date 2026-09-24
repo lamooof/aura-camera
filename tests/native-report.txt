@@ -1,0 +1,29 @@
+PASS refiner-simd.wasm has no host imports
+PASS refiner-simd.wasm matches JS 32x18x16x9 matting=false
+PASS refiner-simd.wasm matches JS 100x58x40x24 matting=false
+PASS refiner-simd.wasm matches JS 320x180x128x72 matting=false
+PASS refiner-simd.wasm matches JS 32x18x16x9 matting=true
+PASS refiner-simd.wasm matches JS 100x58x40x24 matting=true
+PASS refiner-simd.wasm matches JS 320x180x128x72 matting=true
+PASS refiner-simd.wasm constant alpha 0
+PASS refiner-simd.wasm constant alpha 1
+PASS refiner-simd.wasm constant alpha 0.5
+PASS refiner-simd.wasm resizing resets history and remains valid
+PASS refiner-simd.wasm malformed dimensions and closed instance rejected
+PASS refiner.wasm has no host imports
+PASS refiner.wasm matches JS 32x18x16x9 matting=false
+PASS refiner.wasm matches JS 100x58x40x24 matting=false
+PASS refiner.wasm matches JS 320x180x128x72 matting=false
+PASS refiner.wasm matches JS 32x18x16x9 matting=true
+PASS refiner.wasm matches JS 100x58x40x24 matting=true
+PASS refiner.wasm matches JS 320x180x128x72 matting=true
+PASS refiner.wasm constant alpha 0
+PASS refiner.wasm constant alpha 1
+PASS refiner.wasm constant alpha 0.5
+PASS refiner.wasm resizing resets history and remains valid
+PASS refiner.wasm malformed dimensions and closed instance rejected
+PASS Efficient working mask bounded while high RGB output remains 720p
+PASS Detail mode keeps full-resolution 0.4.0 reconstruction
+PASS RVM WASM speed budget bounded to 512/core 256
+PASS RVM detail mode retains 960/core 384
+PASS Speed preset preserves background, disabled effect and Meet exclusion

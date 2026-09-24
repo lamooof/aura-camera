@@ -1,0 +1,30 @@
+{
+  "environment": "v22.16.0",
+  "kind": "Node V8, genuine SIMD WASM; synthetic RGB and alpha, no neural inference",
+  "work": [
+    640,
+    360
+  ],
+  "guide": [
+    256,
+    144
+  ],
+  "samples": 45,
+  "results": [
+    {
+      "variant": "0.4.1 guard off",
+      "medianMs": 17.478458999999987,
+      "p95Ms": 20.556919000000107
+    },
+    {
+      "variant": "0.4.2 guard off",
+      "medianMs": 16.50876100000005,
+      "p95Ms": 21.919173
+    },
+    {
+      "variant": "0.4.2 guard on (40%)",
+      "medianMs": 14.236988999999994,
+      "p95Ms": 17.108754999999974
+    }
+  ]
+}

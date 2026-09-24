@@ -1,0 +1,7 @@
+{
+  "tests": 31,
+  "passed": 31,
+  "failed": 0,
+  "method": "python3 -m unittest discover -s tests -p 'test_*.py' -v",
+  "realML": false
+}

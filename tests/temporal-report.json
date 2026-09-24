@@ -1,0 +1,206 @@
+{
+  "results": [
+    {
+      "name": "JS no initial fade; alpha endpoints and fractional values preserved",
+      "passed": true
+    },
+    {
+      "name": "JS rejects a one-frame background false positive after warmup",
+      "passed": true,
+      "details": {
+        "spikeAlpha": 0
+      }
+    },
+    {
+      "name": "JS suppresses a one-frame foreground dropout after warmup",
+      "passed": true
+    },
+    {
+      "name": "JS real RGB change releases history immediately",
+      "passed": true
+    },
+    {
+      "name": "JS static persistent class change is not frozen indefinitely",
+      "passed": true
+    },
+    {
+      "name": "JS zero strength is an exact temporal bypass",
+      "passed": true
+    },
+    {
+      "name": "JS long frame gap resets old history",
+      "passed": true
+    },
+    {
+      "name": "JS invalid/nonmonotonic frame timing resets history",
+      "passed": true
+    },
+    {
+      "name": "JS explicit reset and resize invalidate all candidates",
+      "passed": true
+    },
+    {
+      "name": "JS switching back to legacy mode clears guarded history",
+      "passed": true
+    },
+    {
+      "name": "JS independent sessions do not share history",
+      "passed": true
+    },
+    {
+      "name": "JS alpha jitter on stationary synthetic input lower than legacy",
+      "passed": true,
+      "details": {
+        "newMeanStep": 0.03333345185155454,
+        "legacyMeanStep": 0.04285717010498047,
+        "syntheticOnly": true
+      }
+    },
+    {
+      "name": "refiner-simd.wasm no initial fade; alpha endpoints and fractional values preserved",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm rejects a one-frame background false positive after warmup",
+      "passed": true,
+      "details": {
+        "spikeAlpha": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm suppresses a one-frame foreground dropout after warmup",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm real RGB change releases history immediately",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm static persistent class change is not frozen indefinitely",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm zero strength is an exact temporal bypass",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm long frame gap resets old history",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm invalid/nonmonotonic frame timing resets history",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm explicit reset and resize invalidate all candidates",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm switching back to legacy mode clears guarded history",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm independent sessions do not share history",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm alpha jitter on stationary synthetic input lower than legacy",
+      "passed": true,
+      "details": {
+        "newMeanStep": 0.03333345185155454,
+        "legacyMeanStep": 0.04285717010498047,
+        "syntheticOnly": true
+      }
+    },
+    {
+      "name": "refiner.wasm no initial fade; alpha endpoints and fractional values preserved",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm rejects a one-frame background false positive after warmup",
+      "passed": true,
+      "details": {
+        "spikeAlpha": 0
+      }
+    },
+    {
+      "name": "refiner.wasm suppresses a one-frame foreground dropout after warmup",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm real RGB change releases history immediately",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm static persistent class change is not frozen indefinitely",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm zero strength is an exact temporal bypass",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm long frame gap resets old history",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm invalid/nonmonotonic frame timing resets history",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm explicit reset and resize invalidate all candidates",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm switching back to legacy mode clears guarded history",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm independent sessions do not share history",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm alpha jitter on stationary synthetic input lower than legacy",
+      "passed": true,
+      "details": {
+        "newMeanStep": 0.03333345185155454,
+        "legacyMeanStep": 0.04285717010498047,
+        "syntheticOnly": true
+      }
+    },
+    {
+      "name": "refiner-simd.wasm new temporal path agrees with JavaScript across motion and mask types",
+      "passed": true,
+      "details": {
+        "maxAlphaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm new temporal path agrees with JavaScript across motion and mask types",
+      "passed": true,
+      "details": {
+        "maxAlphaError": 0
+      }
+    },
+    {
+      "name": "Antiflicker preset preserves every other user setting",
+      "passed": true
+    },
+    {
+      "name": "Old saved settings opt out of new guard until button is used",
+      "passed": true
+    },
+    {
+      "name": "Time-based retention has equivalent decay for two 30Hz and one 15Hz step",
+      "passed": true
+    },
+    {
+      "name": "No-model alpha filter preserves browser-side settings on migration",
+      "passed": true
+    },
+    {
+      "name": "WASM ABI guard rejects unrelated/mixed compiled modules",
+      "passed": true
+    }
+  ]
+}

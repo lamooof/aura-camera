@@ -1,0 +1,43 @@
+PASS JS no initial fade; alpha endpoints and fractional values preserved
+PASS JS rejects a one-frame background false positive after warmup
+PASS JS suppresses a one-frame foreground dropout after warmup
+PASS JS real RGB change releases history immediately
+PASS JS static persistent class change is not frozen indefinitely
+PASS JS zero strength is an exact temporal bypass
+PASS JS long frame gap resets old history
+PASS JS invalid/nonmonotonic frame timing resets history
+PASS JS explicit reset and resize invalidate all candidates
+PASS JS switching back to legacy mode clears guarded history
+PASS JS independent sessions do not share history
+PASS JS alpha jitter on stationary synthetic input lower than legacy
+PASS refiner-simd.wasm no initial fade; alpha endpoints and fractional values preserved
+PASS refiner-simd.wasm rejects a one-frame background false positive after warmup
+PASS refiner-simd.wasm suppresses a one-frame foreground dropout after warmup
+PASS refiner-simd.wasm real RGB change releases history immediately
+PASS refiner-simd.wasm static persistent class change is not frozen indefinitely
+PASS refiner-simd.wasm zero strength is an exact temporal bypass
+PASS refiner-simd.wasm long frame gap resets old history
+PASS refiner-simd.wasm invalid/nonmonotonic frame timing resets history
+PASS refiner-simd.wasm explicit reset and resize invalidate all candidates
+PASS refiner-simd.wasm switching back to legacy mode clears guarded history
+PASS refiner-simd.wasm independent sessions do not share history
+PASS refiner-simd.wasm alpha jitter on stationary synthetic input lower than legacy
+PASS refiner.wasm no initial fade; alpha endpoints and fractional values preserved
+PASS refiner.wasm rejects a one-frame background false positive after warmup
+PASS refiner.wasm suppresses a one-frame foreground dropout after warmup
+PASS refiner.wasm real RGB change releases history immediately
+PASS refiner.wasm static persistent class change is not frozen indefinitely
+PASS refiner.wasm zero strength is an exact temporal bypass
+PASS refiner.wasm long frame gap resets old history
+PASS refiner.wasm invalid/nonmonotonic frame timing resets history
+PASS refiner.wasm explicit reset and resize invalidate all candidates
+PASS refiner.wasm switching back to legacy mode clears guarded history
+PASS refiner.wasm independent sessions do not share history
+PASS refiner.wasm alpha jitter on stationary synthetic input lower than legacy
+PASS refiner-simd.wasm new temporal path agrees with JavaScript across motion and mask types
+PASS refiner.wasm new temporal path agrees with JavaScript across motion and mask types
+PASS Antiflicker preset preserves every other user setting
+PASS Old saved settings opt out of new guard until button is used
+PASS Time-based retention has equivalent decay for two 30Hz and one 15Hz step
+PASS No-model alpha filter preserves browser-side settings on migration
+PASS WASM ABI guard rejects unrelated/mixed compiled modules

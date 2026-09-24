@@ -1,0 +1,12 @@
+PASS Messages from a different extension are ignored
+PASS Meet policy uses Chrome sender metadata, not request URL
+PASS Lazy MediaPipe injected into the requesting document in ISOLATED world
+PASS Repeated library requests are deduplicated per document
+PASS Different document IDs receive their own libraries
+PASS Library whitelist rejects paths and prototype keys
+PASS Libraries cannot be injected without a calling tab
+PASS Injection denial is reported and can be retried
+PASS Navigation clears the per-document library cache
+PASS Active camera status produces an ON badge
+PASS Processing failure remains visible in diagnostics
+PASS Closing a tab clears status

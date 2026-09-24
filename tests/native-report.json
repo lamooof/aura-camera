@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "name": "refiner-simd.wasm has no host imports",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 32x18x16x9 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 100x58x40x24 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 320x180x128x72 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 32x18x16x9 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 100x58x40x24 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm matches JS 320x180x128x72 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner-simd.wasm constant alpha 0",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm constant alpha 1",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm constant alpha 0.5",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm resizing resets history and remains valid",
+      "passed": true
+    },
+    {
+      "name": "refiner-simd.wasm malformed dimensions and closed instance rejected",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm has no host imports",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm matches JS 32x18x16x9 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm matches JS 100x58x40x24 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm matches JS 320x180x128x72 matting=false",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm matches JS 32x18x16x9 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm matches JS 100x58x40x24 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm matches JS 320x180x128x72 matting=true",
+      "passed": true,
+      "details": {
+        "maxError": 0,
+        "rgbaError": 0
+      }
+    },
+    {
+      "name": "refiner.wasm constant alpha 0",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm constant alpha 1",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm constant alpha 0.5",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm resizing resets history and remains valid",
+      "passed": true
+    },
+    {
+      "name": "refiner.wasm malformed dimensions and closed instance rejected",
+      "passed": true
+    },
+    {
+      "name": "Efficient working mask bounded while high RGB output remains 720p",
+      "passed": true
+    },
+    {
+      "name": "Detail mode keeps full-resolution 0.4.0 reconstruction",
+      "passed": true
+    },
+    {
+      "name": "RVM WASM speed budget bounded to 512/core 256",
+      "passed": true
+    },
+    {
+      "name": "RVM detail mode retains 960/core 384",
+      "passed": true
+    },
+    {
+      "name": "Speed preset preserves background, disabled effect and Meet exclusion",
+      "passed": true
+    }
+  ]
+}

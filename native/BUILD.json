@@ -1,0 +1,14 @@
+{
+  "compiler": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+  "sourceSHA256": "7aa34def8e29e8bc889c19166acd710be2678e011207e3505d3a980dc067d216",
+  "outputs": {
+    "refiner-simd.wasm": {
+      "size": 12504,
+      "sha256": "0960906a39d2c81be371883bf633d3bc357d41a9e9dd59fc28744e7f5dd1139f"
+    },
+    "refiner.wasm": {
+      "size": 8292,
+      "sha256": "cb002837bf870c2a9f16b6b8d01ef0831b399775b381aecab3682a88c2655c07"
+    }
+  }
+}

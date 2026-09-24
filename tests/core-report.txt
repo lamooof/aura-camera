@@ -1,0 +1,25 @@
+PASS Defaults: all sites allowed, Google Meet excluded
+PASS Google Meet OFF also covers a cross-origin child frame
+PASS Google Meet ON independent of all-sites toggle
+PASS Meet host boundary does not match unrelated domains
+PASS Telemost-only mode and com subdomains
+PASS Preview unaffected by external site policy
+PASS Old settings migrate without losing chosen background/quality
+PASS Unknown algorithms and NaNs are rejected/normalized
+PASS Output preserves aspect, never upscales source, even sizes
+PASS Valid custom images only, no SVG/script URLs
+PASS Bilinear resampling preserves a constant mask
+PASS Box mean agrees with brute force at boundaries
+PASS RGB guided filter preserves exact alpha 0
+PASS RGB guided filter preserves exact alpha 1
+PASS Matting soft alpha 0.5 is not thresholded away
+PASS First frame has no fade from a zero history
+PASS Large mask movement does not trail previous foreground
+PASS Guide RGB restores an edge, not a blur of the person
+PASS Wrong mask/RGB sizes fail explicitly
+PASS Depth fusion suppresses ambiguous FAR area but protects person
+PASS Depth fusion ignores stale maps
+PASS Depth is not guessed when map is flat
+PASS Depth strength zero is an exact no-op
+PASS Depth correction is gated by RGB motion
+PASS Refiner benchmark: 640x360 output, 320x180 RGB guide

@@ -1,0 +1,36 @@
+test_all_models_prepared_and_checked (test_prepare.InstallerTests.test_all_models_prepared_and_checked) ... ok
+test_cached_oversized_content_rejected (test_prepare.InstallerTests.test_cached_oversized_content_rejected) ... ok
+test_classic_media_pipe_wrapper (test_prepare.InstallerTests.test_classic_media_pipe_wrapper) ... ok
+test_default_only_media_pipe (test_prepare.InstallerTests.test_default_only_media_pipe) ... ok
+test_depth_pulls_multiclass_and_both_runtimes (test_prepare.InstallerTests.test_depth_pulls_multiclass_and_both_runtimes) ... ok
+test_download_failure_does_not_publish_prepared_build (test_prepare.InstallerTests.test_download_failure_does_not_publish_prepared_build) ... ok
+test_http_untrusted_host_and_userinfo_rejected (test_prepare.InstallerTests.test_http_untrusted_host_and_userinfo_rejected) ... ok
+test_incremental_install_preserves_models (test_prepare.InstallerTests.test_incremental_install_preserves_models) ... ok
+test_lock_path_traversal_rejected (test_prepare.InstallerTests.test_lock_path_traversal_rejected) ... ok
+test_manifest_already_present (test_prepare.InstallerTests.test_manifest_already_present) ... ok
+test_mismatched_build_fails_check (test_prepare.InstallerTests.test_mismatched_build_fails_check) ... ok
+test_missing_manifest_script_fails_check (test_prepare.InstallerTests.test_missing_manifest_script_fails_check) ... ok
+test_modified_model_fails_offline_check (test_prepare.InstallerTests.test_modified_model_fails_offline_check) ... ok
+test_npm_integrity_mismatch_rejected (test_prepare.InstallerTests.test_npm_integrity_mismatch_rejected) ... ok
+test_redirect_to_unapproved_host_rejected (test_prepare.InstallerTests.test_redirect_to_unapproved_host_rejected) ... ok
+test_repeated_prepare_does_not_redownload (test_prepare.InstallerTests.test_repeated_prepare_does_not_redownload) ... ok
+test_rvm_only_needs_ort (test_prepare.InstallerTests.test_rvm_only_needs_ort) ... ok
+test_tar_symlink_is_never_extracted (test_prepare.InstallerTests.test_tar_symlink_is_never_extracted) ... ok
+test_tflite_wasm_onnx_html_rejected (test_prepare.InstallerTests.test_tflite_wasm_onnx_html_rejected) ... ok
+test_unknown_bundle_and_import_rejected (test_prepare.InstallerTests.test_unknown_bundle_and_import_rejected) ... ok
+test_unknown_emscripten_wrapper_rejected (test_prepare.InstallerTests.test_unknown_emscripten_wrapper_rejected) ... ok
+test_wrong_package_metadata_rejected (test_prepare.InstallerTests.test_wrong_package_metadata_rejected) ... ok
+test_corrupt_dependency_blocks_before_write (test_update.UpdateTests.test_corrupt_dependency_blocks_before_write) ... ok
+test_extension_directory_accepted (test_update.UpdateTests.test_extension_directory_accepted) ... ok
+test_failed_write_rolls_back (test_update.UpdateTests.test_failed_write_rolls_back) ... ok
+test_installed_model_list_preserved (test_update.UpdateTests.test_installed_model_list_preserved) ... ok
+test_path_traversal_blocked (test_update.UpdateTests.test_path_traversal_blocked) ... ok
+test_rollback_restores_old_and_removes_new_files (test_update.UpdateTests.test_rollback_restores_old_and_removes_new_files) ... ok
+test_success_models_cache_preserved (test_update.UpdateTests.test_success_models_cache_preserved) ... ok
+test_upgrade_from_041 (test_update.UpdateTests.test_upgrade_from_041) ... ok
+test_wrong_version_no_changes (test_update.UpdateTests.test_wrong_version_no_changes) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.262s
+
+OK

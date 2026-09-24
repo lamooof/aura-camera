@@ -1,0 +1,316 @@
+{
+  "environment": "Chromium 144.0.7559.96 (Linux, headless)",
+  "realExtensionInstalled": false,
+  "realMediaPipeModel": false,
+  "realOnnxModel": false,
+  "extensionInstallationBlockedByPolicy": true,
+  "realCamera": false,
+  "telemostCall": false,
+  "results": [
+    {
+      "name": "MAIN and ISOLATED handshake",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "No webcam opened during extension initialization",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "No background or WASM fetched before any camera request",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Shared DOM video readable from isolated world",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Video track replaced, microphone track preserved",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Outgoing video has replaced background and preserved foreground",
+      "passed": true,
+      "details": {
+        "outside": [
+          38,
+          61,
+          104,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Opt-in temporal guard preserves outgoing static foreground and background",
+      "passed": true,
+      "details": {
+        "outside": [
+          38,
+          61,
+          104,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Guard mode is reported by active engine",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Actual bundled native RGB filter is active",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Efficient alpha grid does not lower outgoing RGB resolution",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Model configured for local WASM and CPU",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Native MediaStreamTrackProcessor receives processed frames, not an overlay",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Background changes in an already opened stream",
+      "passed": true,
+      "details": {
+        "outside": [
+          134,
+          70,
+          40,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Explicit effect OFF returns ordinary camera image",
+      "passed": true,
+      "details": {
+        "outside": [
+          18,
+          184,
+          93,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Inference error produces slate, never raw room",
+      "passed": true,
+      "details": {
+        "outside": [
+          21,
+          32,
+          44,
+          255
+        ],
+        "inside": [
+          21,
+          32,
+          44,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Inference error is visible in diagnostics",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Bundled image background is composited",
+      "passed": true,
+      "details": {
+        "outside": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "All eight bundled backgrounds decode without failure",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Blur mode keeps foreground sharp",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Economy profile keeps a valid even-sized stream",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Stopping original video keeps clones and source alive",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Disabling all output clones disables physical source track",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Re-enabling a clone re-enables the source",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Stopping last video clone releases camera but not microphone",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Pipeline DOM cleaned up",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Audio-only request stays untouched",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Camera reopens after all tracks are stopped",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Meet excluded: new camera request returns native stream unchanged",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Meet enabled: new camera request is processed",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "All-sites OFF bypasses a non-Telemost site",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Multi-class adapter returns opaque person and replaced background",
+      "passed": true,
+      "details": {
+        "outside": [
+          134,
+          70,
+          40,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Stopping camera during inference closes model after inference completes",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Async stop removes the shared pipeline and source camera",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Turning effect OFF during inference discards stale alpha result",
+      "passed": true,
+      "details": {
+        "outside": [
+          18,
+          184,
+          93,
+          255
+        ],
+        "inside": [
+          225,
+          44,
+          57,
+          255
+        ],
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "name": "Turning effect OFF releases model without concurrent disposal",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Detail mode selectable without changing site exclusions",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "No uncaught browser script errors",
+      "passed": true,
+      "details": true
+    }
+  ]
+}

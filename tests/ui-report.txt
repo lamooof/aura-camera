@@ -1,0 +1,35 @@
+PASS All five algorithms available after preparation
+PASS Google Meet excluded by default
+PASS All ordinary sites enabled by default
+PASS Existing background and quality preserved
+PASS Meet switch saved separately
+PASS All-sites switch does not overwrite Meet choice
+PASS Scope change explains page refresh
+PASS Algorithm fast saved
+PASS Algorithm multiclass saved
+PASS Algorithm rvm saved
+PASS Algorithm modnet saved
+PASS Algorithm depth saved
+PASS Depth parameters shown only for depth mode
+PASS Depth parameters hidden in RVM
+PASS CPU override persists
+PASS Color mode works
+PASS Blur mode works
+PASS All eight backgrounds shown
+PASS Refinement controls persist their numeric units
+PASS Full detail processing mode persists
+PASS Speed button selects fast/balanced/efficient/auto
+PASS Speed button preserves separate site choices
+PASS Antiflicker remains opt-in after migration
+PASS Antiflicker button enables guard at 40 percent
+PASS Antiflicker button leaves all other settings intact
+PASS Guard toggle returns to legacy temporal mode
+PASS Popup has no horizontal overflow
+PASS Diagnostic report downloads without frames
+PASS Preview opens only after explicit button
+PASS Preview has the same five-model selector
+PASS Preview contains all four quality choices
+PASS Preview contains matching antiflicker controls
+PASS Preview does not open camera on load
+PASS Model self-test control is present
+PASS No uncaught UI errors

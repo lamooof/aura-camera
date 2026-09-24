@@ -1,0 +1,38 @@
+PASS MAIN and ISOLATED handshake
+PASS No webcam opened during extension initialization
+PASS No background or WASM fetched before any camera request
+PASS Shared DOM video readable from isolated world
+PASS Video track replaced, microphone track preserved
+PASS Outgoing video has replaced background and preserved foreground
+PASS Opt-in temporal guard preserves outgoing static foreground and background
+PASS Guard mode is reported by active engine
+PASS Actual bundled native RGB filter is active
+PASS Efficient alpha grid does not lower outgoing RGB resolution
+PASS Model configured for local WASM and CPU
+PASS Native MediaStreamTrackProcessor receives processed frames, not an overlay
+PASS Background changes in an already opened stream
+PASS Explicit effect OFF returns ordinary camera image
+PASS Inference error produces slate, never raw room
+PASS Inference error is visible in diagnostics
+PASS Bundled image background is composited
+PASS All eight bundled backgrounds decode without failure
+PASS Blur mode keeps foreground sharp
+PASS Economy profile keeps a valid even-sized stream
+PASS Stopping original video keeps clones and source alive
+PASS Disabling all output clones disables physical source track
+PASS Re-enabling a clone re-enables the source
+PASS Stopping last video clone releases camera but not microphone
+PASS Pipeline DOM cleaned up
+PASS Audio-only request stays untouched
+PASS Camera reopens after all tracks are stopped
+PASS Meet excluded: new camera request returns native stream unchanged
+PASS Meet enabled: new camera request is processed
+PASS All-sites OFF bypasses a non-Telemost site
+PASS Multi-class adapter returns opaque person and replaced background
+PASS Stopping camera during inference closes model after inference completes
+PASS Async stop removes the shared pipeline and source camera
+PASS Turning effect OFF during inference discards stale alpha result
+PASS Turning effect OFF releases model without concurrent disposal
+PASS Detail mode selectable without changing site exclusions
+PASS No uncaught browser script errors
+{"passed": 37, "total": 37}

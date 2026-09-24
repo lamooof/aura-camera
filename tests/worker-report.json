@@ -1,0 +1,53 @@
+{
+  "realChromeAPI": false,
+  "results": [
+    {
+      "name": "Messages from a different extension are ignored",
+      "passed": true
+    },
+    {
+      "name": "Meet policy uses Chrome sender metadata, not request URL",
+      "passed": true
+    },
+    {
+      "name": "Lazy MediaPipe injected into the requesting document in ISOLATED world",
+      "passed": true
+    },
+    {
+      "name": "Repeated library requests are deduplicated per document",
+      "passed": true
+    },
+    {
+      "name": "Different document IDs receive their own libraries",
+      "passed": true
+    },
+    {
+      "name": "Library whitelist rejects paths and prototype keys",
+      "passed": true
+    },
+    {
+      "name": "Libraries cannot be injected without a calling tab",
+      "passed": true
+    },
+    {
+      "name": "Injection denial is reported and can be retried",
+      "passed": true
+    },
+    {
+      "name": "Navigation clears the per-document library cache",
+      "passed": true
+    },
+    {
+      "name": "Active camera status produces an ON badge",
+      "passed": true
+    },
+    {
+      "name": "Processing failure remains visible in diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Closing a tab clears status",
+      "passed": true
+    }
+  ]
+}

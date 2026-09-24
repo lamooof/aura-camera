@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "name": "Defaults: all sites allowed, Google Meet excluded",
+      "passed": true
+    },
+    {
+      "name": "Google Meet OFF also covers a cross-origin child frame",
+      "passed": true
+    },
+    {
+      "name": "Google Meet ON independent of all-sites toggle",
+      "passed": true
+    },
+    {
+      "name": "Meet host boundary does not match unrelated domains",
+      "passed": true
+    },
+    {
+      "name": "Telemost-only mode and com subdomains",
+      "passed": true
+    },
+    {
+      "name": "Preview unaffected by external site policy",
+      "passed": true
+    },
+    {
+      "name": "Old settings migrate without losing chosen background/quality",
+      "passed": true
+    },
+    {
+      "name": "Unknown algorithms and NaNs are rejected/normalized",
+      "passed": true
+    },
+    {
+      "name": "Output preserves aspect, never upscales source, even sizes",
+      "passed": true
+    },
+    {
+      "name": "Valid custom images only, no SVG/script URLs",
+      "passed": true
+    },
+    {
+      "name": "Bilinear resampling preserves a constant mask",
+      "passed": true
+    },
+    {
+      "name": "Box mean agrees with brute force at boundaries",
+      "passed": true
+    },
+    {
+      "name": "RGB guided filter preserves exact alpha 0",
+      "passed": true
+    },
+    {
+      "name": "RGB guided filter preserves exact alpha 1",
+      "passed": true
+    },
+    {
+      "name": "Matting soft alpha 0.5 is not thresholded away",
+      "passed": true
+    },
+    {
+      "name": "First frame has no fade from a zero history",
+      "passed": true
+    },
+    {
+      "name": "Large mask movement does not trail previous foreground",
+      "passed": true
+    },
+    {
+      "name": "Guide RGB restores an edge, not a blur of the person",
+      "passed": true
+    },
+    {
+      "name": "Wrong mask/RGB sizes fail explicitly",
+      "passed": true
+    },
+    {
+      "name": "Depth fusion suppresses ambiguous FAR area but protects person",
+      "passed": true
+    },
+    {
+      "name": "Depth fusion ignores stale maps",
+      "passed": true
+    },
+    {
+      "name": "Depth is not guessed when map is flat",
+      "passed": true
+    },
+    {
+      "name": "Depth strength zero is an exact no-op",
+      "passed": true
+    },
+    {
+      "name": "Depth correction is gated by RGB motion",
+      "passed": true
+    },
+    {
+      "name": "Refiner benchmark: 640x360 output, 320x180 RGB guide",
+      "passed": true,
+      "detail": {
+        "ms": 538,
+        "environment": "Node CPU synthetic, not camera FPS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "realModels": false,
+  "testDoubles": true,
+  "results": [
+    {
+      "name": "RVM input RGB normalization [0,1], NCHW",
+      "passed": true
+    },
+    {
+      "name": "MODNet normalization [-1,1], not ImageNet mean",
+      "passed": true
+    },
+    {
+      "name": "Selfie selects person channel 1",
+      "passed": true
+    },
+    {
+      "name": "SelfieMulticlass combines all person classes as 1-background",
+      "passed": true
+    },
+    {
+      "name": "Unexpected multiclass output fails instead of selecting a wrong class",
+      "passed": true
+    },
+    {
+      "name": "RVM recycles recurrent tensors across frames",
+      "passed": true
+    },
+    {
+      "name": "RVM recurrence is independent between cameras",
+      "passed": true
+    },
+    {
+      "name": "RVM resets recurrence on size changes",
+      "passed": true
+    },
+    {
+      "name": "RVM rejects nonfinite alpha, does not expose NaNs to compositor",
+      "passed": true
+    },
+    {
+      "name": "MODNet dispatch uses its ONNX adapter, not MediaPipe",
+      "passed": true
+    },
+    {
+      "name": "Depth mode invokes distinct MiDaS inference",
+      "passed": true
+    },
+    {
+      "name": "MiDaS uses [0,1] RGB (official ONNX graph includes normalization)",
+      "passed": true
+    },
+    {
+      "name": "Automatic accelerator falls back to CPU without changing algorithm",
+      "passed": true
+    },
+    {
+      "name": "ORT dependencies are local, proxy/threads do not require relaxed page CSP",
+      "passed": true
+    },
+    {
+      "name": "Tensor and session resources are disposed",
+      "passed": true
+    }
+  ]
+}

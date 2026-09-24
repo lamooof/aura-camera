@@ -1,0 +1,17 @@
+# Dependencies downloaded by prepare.py
+.cache/
+extension/models/
+extension/vendor/
+DEPENDENCIES.lock.json
+
+# Local update backups and temporary files
+.backups/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/

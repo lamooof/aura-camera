@@ -37,7 +37,7 @@ PASS refiner.wasm alpha jitter on stationary synthetic input lower than legacy
 PASS refiner-simd.wasm new temporal path agrees with JavaScript across motion and mask types
 PASS refiner.wasm new temporal path agrees with JavaScript across motion and mask types
 PASS Antiflicker preset preserves every other user setting
-PASS Old saved settings opt out of new guard until button is used
+PASS Saved guard choice remains off when explicitly disabled
 PASS Time-based retention has equivalent decay for two 30Hz and one 15Hz step
 PASS No-model alpha filter preserves browser-side settings on migration
 PASS WASM ABI guard rejects unrelated/mixed compiled modules

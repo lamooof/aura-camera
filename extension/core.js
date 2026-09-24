@@ -24,10 +24,10 @@
     high: {width:1280,height:720,fps:25,guide:384,rvm:768,modnet:640},
     ultra: {width:1280,height:720,fps:25,guide:512,rvm:960,modnet:768}
   });
-  const DEFAULTS = Object.freeze({enabled:true,everywhere:true,meetEnabled:false,
+  const DEFAULTS = Object.freeze({enabled:true,everywhere:true,meetEnabled:true,
     mode:'image',background:'studio',color:'#36435d',blur:18,threshold:0.5,
-    quality:'balanced',algorithm:'fast',accelerator:'auto',processing:'efficient',edge:4,temporal:0.2,antiflicker:false,
-    feather:0.5,depthStrength:0.45,depthInterval:400});
+    quality:'balanced',algorithm:'multiclass',accelerator:'auto',processing:'efficient',edge:1,temporal:0.45,antiflicker:true,
+    feather:2,depthStrength:0.45,depthInterval:400});
   const clamp = (v,lo,hi,fallback=lo) => typeof v==='number' && Number.isFinite(v) ? Math.max(lo,Math.min(hi,v)) : fallback;
   const unit = v => Number.isFinite(v) ? Math.max(0,Math.min(1,v)) : 0;
   const smooth = (lo,hi,v) => { const x=unit((v-lo)/(hi-lo));return x*x*(3-2*x); };

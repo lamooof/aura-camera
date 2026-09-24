@@ -56,6 +56,7 @@ tests/core-report.txt
 tests/core.test.cjs
 tests/installer-report.txt
 tests/installer-summary.json
+tests/main-hook.test.cjs
 tests/models-report.json
 tests/models-report.txt
 tests/models.test.cjs

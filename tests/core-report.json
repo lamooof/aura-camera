@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "name": "Defaults: all sites allowed, Google Meet excluded",
+      "name": "Defaults match the selected camera settings",
       "passed": true
     },
     {
@@ -25,7 +25,7 @@
       "passed": true
     },
     {
-      "name": "Old settings migrate without losing chosen background/quality",
+      "name": "Saved settings retain explicit choices",
       "passed": true
     },
     {
@@ -65,7 +65,7 @@
       "passed": true
     },
     {
-      "name": "Large mask movement does not trail previous foreground",
+      "name": "Large mask movement does not trail when stabilization is disabled",
       "passed": true
     },
     {
@@ -100,7 +100,7 @@
       "name": "Refiner benchmark: 640x360 output, 320x180 RGB guide",
       "passed": true,
       "detail": {
-        "ms": 538,
+        "ms": 471,
         "environment": "Node CPU synthetic, not camera FPS"
       }
     }

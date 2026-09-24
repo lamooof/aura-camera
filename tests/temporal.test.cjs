@@ -35,8 +35,8 @@ for(const m of modules)test(m.name+' new temporal path agrees with JavaScript ac
  }assert(maxError<1e-5);return {maxAlphaError:maxError};
 });
 test('Antiflicker preset preserves every other user setting',()=>{const s=C.normalize({algorithm:'fast',quality:'balanced',enabled:false,everywhere:false,meetEnabled:true,background:'office',edge:6,feather:.9,threshold:.58});const expected={...s,antiflicker:true,temporal:.4};assert.deepEqual(C.antiflickerPreset(s),expected);});
-test('Old saved settings opt out of new guard until button is used',()=>assert.equal(C.normalize({temporal:.5}).antiflicker,false));
+test('Saved guard choice remains off when explicitly disabled',()=>assert.equal(C.normalize({temporal:.5,antiflicker:false}).antiflicker,false));
 test('Time-based retention has equivalent decay for two 30Hz and one 15Hz step',()=>{const a=C.temporalParams({temporal:.4,frameDeltaMs:1000/30}).retention,b=C.temporalParams({temporal:.4,frameDeltaMs:1000/15}).retention;assert(Math.abs(a*a-b)<1e-8);});
-test('No-model alpha filter preserves browser-side settings on migration',()=>{const s=C.normalize({algorithm:'depth',accelerator:'cpu',processing:'detail',temporal:.55});assert.equal(s.algorithm,'depth');assert.equal(s.temporal,.55);assert.equal(s.antiflicker,false);});
+test('No-model alpha filter preserves browser-side settings on migration',()=>{const s=C.normalize({algorithm:'depth',accelerator:'cpu',processing:'detail',temporal:.55,antiflicker:false});assert.equal(s.algorithm,'depth');assert.equal(s.temporal,.55);assert.equal(s.antiflicker,false);});
 test('WASM ABI guard rejects unrelated/mixed compiled modules',()=>{const empty=new WebAssembly.Module(Uint8Array.from([0,97,115,109,1,0,0,0]));assert.throws(()=>new AuraNative.NativeRefiner(empty),/Версия WASM/);});
 fs.writeFileSync(path.join(__dirname,'temporal-report.json'),JSON.stringify({results},null,2));if(results.some(x=>!x.passed))process.exitCode=1;

@@ -143,7 +143,8 @@
   else Object.defineProperty(media,'getUserMedia',{configurable:true,writable:true,value:interceptedGetUserMedia});
   for(const name of ['getUserMedia','webkitGetUserMedia']) {
     if(typeof navigator[name]==='function')try{
-      Object.defineProperty(navigator,name,{configurable:true,value:(c,ok,bad)=>media.getUserMedia(c).then(ok,bad)});
+      // Meeting SDKs may replace these legacy aliases during initialization.
+      Object.defineProperty(navigator,name,{configurable:true,writable:true,value:(c,ok,bad)=>media.getUserMedia(c).then(ok,bad)});
     }catch{/* The standard mediaDevices API is still intercepted. */}
   }
   window.addEventListener('pagehide',()=>{for(const s of [...sessions])dispose(s);});
